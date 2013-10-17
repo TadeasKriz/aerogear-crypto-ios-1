@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
 
-xctool -workspace aerogear-crypto-ios/crypto-sdk.xcworkspace/ -scheme crypto-sdk && xctool -workspace aerogear-crypto-ios/crypto-sdk.xcworkspace/ -scheme crypto-sdkTests
+xctool -workspace crypto-sdk/crypto-sdk.xcworkspace/ -scheme crypto-sdk && xctool -workspace crypto-sdk/crypto-sdk.xcworkspace/ -scheme crypto-sdkTests
 
